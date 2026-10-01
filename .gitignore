@@ -1,0 +1,15 @@
+# dependencies (this plugin ships zero runtime deps, but be safe)
+node_modules/
+
+# runtime artifacts — never commit these
+deletion-log.json
+client-error.log
+*.log
+
+# local dev scratch
+__*.mjs
+__*.cjs
+
+# OS noise
+.DS_Store
+Thumbs.db
