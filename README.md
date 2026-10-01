@@ -5,6 +5,8 @@
 
 [中文说明 →](./README.zh.md)
 
+![File Archive panel](./docs/screenshot.png)
+
 ---
 
 ## What it does

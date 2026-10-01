@@ -5,6 +5,8 @@
 
 [English →](./README.md)
 
+![文件归档面板](./docs/screenshot.png)
+
 ---
 
 ## 它是做什么的
