@@ -46,16 +46,18 @@ DSH 的 AI 会把文件写进你的工作区：报表、表格、图片、代码
 ## 安装
 
 ```bash
-dsh plugin add dsh-file-archive
-```
-
-或直接从本仓库安装：
-
-```bash
 dsh plugin add github:baisedoubi111/dsh-file-archive
 ```
 
-安装后重启 DeepSeek Harness（或重载 profile），侧栏会出现「**文件归档**」图标。
+锁定某个版本：
+
+```bash
+dsh plugin add github:baisedoubi111/dsh-file-archive#v0.1.0
+```
+
+安装后重启 DeepSeek Harness，侧栏会出现「**文件归档**」图标。
+
+> 本插件通过本仓库分发，**暂未发布到 npm**，请使用上面的 `github:` 形式安装。
 
 ## 平台支持
 

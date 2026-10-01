@@ -48,17 +48,20 @@ clean it up — safely.
 ## Install
 
 ```bash
-dsh plugin add dsh-file-archive
-```
-
-Or straight from this repository:
-
-```bash
 dsh plugin add github:baisedoubi111/dsh-file-archive
 ```
 
-Then restart DeepSeek Harness (or reload the profile) and look for the
-**File Archive** icon in the sidebar.
+Pin a specific release:
+
+```bash
+dsh plugin add github:baisedoubi111/dsh-file-archive#v0.1.0
+```
+
+Then restart DeepSeek Harness and look for the **File Archive** icon in the
+sidebar.
+
+> This plugin is distributed from this repository. It is not published to npm
+> yet, so use the `github:` form above.
 
 ## Platform support
 
